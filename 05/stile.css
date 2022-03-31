@@ -1,0 +1,145 @@
+#phone {
+    background-color: aqua;
+    background-position: center;
+    height: 43em;
+    width: 25em;
+    border: 15px solid black;
+    border-radius: 2em;
+    box-shadow: 4px 4px 2px grey;
+}
+
+#phone2 {
+    background-color: #00ffff;
+    height: 43em;
+    width: 25em;
+    border: 15px solid black;
+    border-radius: 2em;
+    box-shadow: 4px 4px 2px grey;
+}
+
+#phone3 {
+    background-color: aqua;
+    height: 43em;
+    width: 25em;
+    border: 15px solid black;
+    border-radius: 2em;
+    box-shadow: 4px 4px 2px grey;
+}
+
+#barretta {
+    background-color: black;
+    height: 3em;
+    width: 13em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+#interfono {
+    background-color: grey;
+    height: 0.5em;
+    width: 4em;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+#camera {
+    background-color: grey;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    margin-left: 8em;
+    margin-top: -0.8em;
+}
+
+.icons{
+    width: 5em;
+    background-color: lawngreen;
+    height: 5em;
+    margin-bottom: 32.5em;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+#phone3 .icons {
+    margin-bottom: 24em;
+}
+
+#phone2 .icons {
+    margin-bottom:  32em;
+}
+
+#dataOggi {
+    margin-top: 1em;
+    background-color: gainsboro;
+    opacity: 0.8;
+    position: relative;
+}
+
+.icons svg {
+    margin-top: 1.3em;
+}
+
+#iconaChiamate {
+    height: 100%;
+}
+
+#contatto{
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#calling{
+    color:green;
+    margin-top: 10px;
+    font-weight:bold;
+}
+
+#phone3 #sezioneChiamate {
+    position: relative;
+    top: 2em;
+    background-color: gainsboro;
+    height: 20em;
+    overflow: auto;
+    opacity: 0.8;
+}
+
+#phone2 #sezioneCalling {
+    position: relative;
+    top: 1em;
+    background-color: gainsboro;
+    height: 20em;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+select {
+    cursor: pointer;
+}
+
+#chiama , #chiudi, #btnAzzera {
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    margin-left: 3px;
+}
+
+#contattoRicarica , #btnRicarica, #ricarica{
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+    margin: auto;
+    max-width: 300px;
+}
+
+#chiamateEffettuate, #creditoResiduo{
+    background-color: rgb(122 155 173 / 33%);
+    border-radius: 10px;
+    width: 10em;
+    height: 3em;
+}
