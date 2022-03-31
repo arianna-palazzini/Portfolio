@@ -24,18 +24,20 @@ const js = document.getElementById('jsSkill');
 const jq = document.getElementById('jqSkill');
 const ts = document.getElementById('tsSkill');
 const ang = document.getElementById('angSkill');
+const pallina = document.getElementById('pallina');
 var x = false;
 
 
 
 
-toggle.addEventListener("click", function(){
+pallina.addEventListener("click", function(){
     main.classList.toggle('active');
     header.classList.toggle('active');
     footer.classList.toggle('active');
     email.classList.toggle('active');
     skills.classList.toggle('active');
     lineaEmail.classList.toggle('active');
+    pallina.classList.toggle('active');
 
 
     for(let element of menu){

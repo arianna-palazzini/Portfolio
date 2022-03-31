@@ -199,12 +199,12 @@ h3.active, h5.active, small.active{
     cursor: pointer;
 }
 
-#toggle .pallina {
+#pallina {
     position: absolute;
     width: 1.2em;
     height: 1.2em;
     border-radius: 50%;
-    background-color:rgb(243, 231, 214)!important;
+    background-color:rgb(243, 231, 214);
     border: none;
 }
 
@@ -221,11 +221,7 @@ h3.active, h5.active, small.active{
         animation-name: zoom;
         animation-duration: 0.5s; }
 
-@keyframes switch {
-            from {transform: translateX(0); }
-            to {transform: translateX(20px); } }
-    
-    #toggle:checked{
-        animation-name: switch;
-        animation-duration: 0.5s;
-    }
+
+#pallina.active {
+    left:2em;
+}
