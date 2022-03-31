@@ -31,7 +31,7 @@ var x = false;
 
 
 
-pallina.addEventListener("click", function(){
+switcher.addEventListener("click", function(){
     main.classList.toggle('active');
     header.classList.toggle('active');
     footer.classList.toggle('active');
