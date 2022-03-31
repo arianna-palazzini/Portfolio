@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="esercitazione Bootstrap">
+  <meta name="viewport" content="width=device-width, initial-scale1">
+  <title>Esercitazione Bootstrap</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/stile.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand h2" href="#" style="font-size:1.5rem; color: rgb(48, 48, 48);">EPICODE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active h6" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6" href="about.html" target="_blank">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6" href="#servizi">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6" href="#team">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle h6" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"> Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6" href="contatti.html" target="_blank">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container-fluid p-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Elegant and creative solutions</h1>
+          <h4 class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor</h4>
+          <button type="button" class="btn-success rounded p-2">Get Started</button>
+          <i class="bi bi-play-circle"></i>
+          <a href="https://www.youtube.com/" target="_blank">Watch Video</a>
+        </div>
+        <div class="col-md-6"> <img src="assets/img/team_1.jpg" class="img-fluid" id="galleggia"></div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="bg-light p-2">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-light p-2">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-light p-2">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-6"> <img src="assets/img/team_2.jpg" class="img-fluid"></div>
+        <div class="col-md-6">
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p class="corsivo">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+          <ul>
+            <li><i class="bi bi-check-circle p-2" style="font-size: 1.5rem; color: rgb(130, 236, 148);"></i>Ut enim ad minim veniam, quis nostrum exercitationem ullam </li>
+            <li><i class="bi bi-check-circle p-2" style="font-size: 1.5rem; color: rgb(130, 236, 148);"></i>Ut enim ad minim veniam, quis nostrum exercitationem ullam </li>
+            <li><i class="bi bi-check-circle p-2" style="font-size: 1.5rem; color: rgb(130, 236, 148);"></i>Ut enim ad minim veniam, quis nostrum exercitationem ullam </li>
+          </ul> <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid p-5 text-center"">
+            <div class=" row">
+      <div class="col-md-3">
+        <h2 style="color: rgb(130, 236, 148);">231</h2>
+        <p class="grassetto">clients</p>
+      </div>
+      <div class="col-md-3">
+        <h2 style="color: rgb(130, 236, 148);">520</h2>
+        <p class="grassetto">projects</p>
+      </div>
+      <div class="col-md-3">
+        <h2 style="color: rgb(130, 236, 148);">1.463</h2>
+        <p class="grassetto">hours of support</p>
+      </div>
+      <div class="col-md-3">
+        <h2 style="color: rgb(130, 236, 148);">15</h2>
+        <p class="grassetto">hard workers</p>
+      </div>
+      </div>
+    </section>
+
+   <!--SERVIZI-->
+    <section class="container-fluid p-5 text-center" id="servizi">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="ombratitolo">SERVICES</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut</p>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-md-4 p-1">
+          <div class="bg-white p-4">
+            <i class="bi bi-laptop" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+            <h5>Lorem Ipsum</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+              magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--PORTFOLIO-->
+    <section class="container-fluid p-5 text-center" id="portfolio">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="ombratitolo">PORTFOLIO</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt </p>
+        </div>
+        <div>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active h6" aria-current="page" href="#">ALL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h6" href="#">APP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h6" href="#">CARD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h6">WEB</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--TESTIMONIALS-->
+    <section class="container-fluid p-5 text-center" id="testimonials">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="ombratitolo">TESTIMONIALS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+        </div>
+      </div>
+
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid p-5 text-center">
+                <div class="row">
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial1.jpg" alt="testimonial 1" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial1.jpg" alt="testimonial 1" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial1.jpg" alt="testimonial 1" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>       
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid p-5 text-center">
+                <div class="row">
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial2.jpg" alt="testimonial 2" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial2.jpg" alt="testimonial 2" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial2.jpg" alt="testimonial 2" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>       
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid p-5 text-center">
+                <div class="row">
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial3.jpg" alt="testimonial 3" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial3.jpg" alt="testimonial 3" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-4 p-1">
+                    <div class="p-3">
+                        <div class="card p-4">
+                            <div class="card-body">
+                              <blockquote class="card-text">&quot; Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut  labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.&quot;</blockquote>
+                              <img src="assets/img/testimonial3.jpg" alt="testimonial 3" width="80px" height="80px"
+                                class="testimonianze">
+                              <h6 class="card-title">Mario Rossi</h6>
+                              <p class="text-secondary">CEO</p>
+                            </div>
+                          </div>
+                    </div>
+                  </div>       
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </section>
+
+    <!--CALL TO ACTION-->
+    <section class="container-fluid p-5 text-center" id="calltoaction">
+      <div class="row">
+        <div class="col-md-12" style="color:white">
+          <h3>Call to Action</h3>
+          <p>orem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna
+            aliqua.</p>
+          <button type="button" id="btncalltoaction" style="color:white" class="p-2">CALL TO ACTION</button>
+        </div>
+      </div>
+    </section>
+
+    <!--TEAM-->
+    <section class="container-fluid p-5 text-center" id="team">
+      <div class="row justify-content-around">
+        <div class="col-md-12">
+          <h3 class="ombratitolo">TEAM</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt</p>
+        </div>
+
+
+        <div class="card col-md-4 p-4 border-light" style="width: 21rem;">
+          <img src="assets/img/testimonial1.jpg" class="card-img-top" alt="persona 1">
+          <div class="card-body">
+            <h5 class="card-title">Walter White</h5>
+            <h6 class="corsivo">Chief Executive Officier</h6>
+            <p class="card-text text-secondary corsivo p-2">Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-twitter"></i></a></li>
+              <li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-facebook"></i></a></li>
+              <li class="nav-item"><a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-instagram"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card col-md-4 p-4 border-light " style="width: 21rem;">
+          <img src="assets/img/testimonial1.jpg" class="card-img-top" alt="persona 2">
+          <div class="card-body">
+            <h5 class="card-title">Walter White</h5>
+            <h6 class="corsivo">Chief Executive Officier</h6>
+            <p class="card-text text-secondary corsivo p-2">Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-twitter"></i></a></li>
+              <li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-facebook"></i></a></li>
+              <li class="nav-item"><a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-instagram"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card col-md-4 p-4 border-light" style="width: 21rem;">
+          <img src="assets/img/testimonial1.jpg" class="card-img-top" alt="persona 3">
+          <div class="card-body">
+            <h5 class="card-title">Walter White</h5>
+            <h6 class="corsivo">Chief Executive Officier</h6>
+            <p class="card-text text-secondary corsivo p-2">Lorem ipsum dolor sit amet, consectetur adipisci elit</p>
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-twitter"></i></a></li>
+              <li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-facebook"></i></a></li>
+              <li class="nav-item"><a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-instagram"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT-->
+    <section class="container-fluid p-5">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3 class="ombratitolo">CONTACT</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+            magna aliqua.</p>
+        </div>
+      </div>
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-md-6" >
+            <div class="p-3" id="indirizzi">
+            <h5>Location:</h5>
+            <address class="text-secondary">Via Appia 100 - 00100 Roma </address>
+            <h5>Email:</h5>
+            <address class="text-secondary">info@example.com </address>
+            <h5>Telefono:</h5>
+            <address class="text-secondary">+39 01 23456789 </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.771595585043!2d12.51369821459185!3d41.876260373509915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61ef98a6d7df%3A0xd23b86198d5cd29d!2sCirconvallazione%20Appia%2C%20100%2C%2000179%20Roma%20RM!5e0!3m2!1sit!2sit!4v1640610611298!5m2!1sit!2sit" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-3" id="form">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="nome" class="form-control" id="nome">
+              </div>
+              <div class="col-md-6">
+                <label for="cognome" class="form-label">Cognome</label>
+                <input type="cognome" class="form-control" id="cognome">
+              </div>
+              <div class="col-12">
+                <label for="oggetto" class="form-label">Oggetto</label>
+                <input type="oggetto" class="form-control" id="oggetto">
+              </div>
+              <div class="col-12">
+                <label for="messaggio" class="form-label">Messaggio</label>
+                <textarea name="messaggio" class="form-control" id="messaggio" cols="10" rows="7"
+                  placeholder="Scrivi qui il tuo messaggio"> </textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary" id="btnMessaggio">Invia Messaggio</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" aria-hidden="true" data-attribute="back-to-top" class="back-to-top" id="icontotop">
+      <i class="bi bi-arrow-up-circle-fill" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+    </a>
+
+  </main>
+
+
+  <footer class="container-fluid p-5 text-center text-secondary" id="footer">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="m-3">Epicode</h1>
+        <p class="corsivo">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut</p>
+      </div>
+    </div>
+    <div>
+      <input type="email" name="email" id="email" placeholder="Inserisci la tua email">
+      <button type="submit" id="btnEmail" class="p-2 text-white">Subscribe</button>
+    </div>
+
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link px-2 text-muted">
+          <i class="bi bi-twitter"></i></a></li>
+      <li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 text-muted">
+          <i class="bi bi-facebook"></i></a></li>
+      <li class="nav-item"><a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-muted">
+          <i class="bi bi-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank" class="nav-link px-2 text-muted">
+          <i class="bi bi-linkedin"></i></a></li>
+    </ul>
+
+    <div class="container" >
+      <div class="row d-flex justify-content-between">
+      <p class="col-md-6" id="copyright">&copy;Copyright Epicode. All rights reserved</p>
+      <p class="col-md-6" id="copyright">Designed By <span class="text-success">BootstrapMade</span></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

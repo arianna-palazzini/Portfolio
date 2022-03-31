@@ -1,0 +1,61 @@
+body {
+    background-image: url(img/sfondo.jpg);  
+}
+
+section {
+    width: 900px;
+    height: 480px;   
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align: center;
+    background-color: rgb(255, 254, 168);
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+div {
+    padding: 10px;
+}
+
+#titolo {
+    font-size: 3rem;
+}
+
+label {
+    font-size: 2em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #feed77;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#btnGo {
+    margin-top: 30px;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    margin: 20px;
+}
+
+#par1{
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="progetto settimanale su Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <title>Progetto Js</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+
+
+<body>
+<div id="sfondo">
+    <h1 class="text-center p-2 text-white">La mia calcolatrice in JS</h1>
+    <div class="container" id="containercampo">
+        <div class="row">
+            <input type="text" name="numeri" id="camponumeri">
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="row">
+    <div class="text-center p-2">
+        <button type="button" value="9" onclick="scriviDato('9')">9</button>
+        <button type="button" value="8" onclick="scriviDato('8')">8</button>
+        <button type="button" value="7" onclick="scriviDato('7')">7</button>
+        <button type="button" value="/" onclick="scriviDato('/')">/</button>
+    </div>
+    <div class="text-center p-2">
+        <button type="button" value="6" onclick="scriviDato('6')">6</button>
+        <button type="button" value="5" onclick="scriviDato('5')">5</button>
+        <button type="button" value="4" onclick="scriviDato('4')">4</button>
+        <button type="button" value="*" onclick="scriviDato('*')">X</button>
+    </div>
+    <div class="text-center p-2">
+        <button type="button" value="3" onclick="scriviDato('3')">3</button>
+        <button type="button" value="2" onclick="scriviDato('2')">2</button>
+        <button type="button" value="1" onclick="scriviDato('1')">1</button>
+        <button type="button" value="-" onclick="scriviDato('-')">-</button>
+    </div>
+    <div class="text-center p-2">
+        <button type="button" value="C" onclick="cancella()">C</button>
+        <button type="button" value="0" onclick="scriviDato('0')">0</button>
+        <button type="button" value="." onclick="scriviDato('.')">.</button>
+        <button type="button" value="+" onclick="scriviDato('+')">+</button>
+    </div>
+    <div class="text-center">
+        <button type="button" value="=" onclick="operazione()">=</button>
+    </div>
+    </div></div>
+</div>
+
+    <script src="js/variabili.js"></script>
+</body>
+
+
+
+
+</html>

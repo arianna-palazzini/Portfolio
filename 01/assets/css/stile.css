@@ -1,0 +1,48 @@
+main a {text-decoration: none;color: gray;}
+main #portfolio ul li a{text-decoration: none;color: gray;}
+main ul {list-style-type: none;}
+main p{font-family: 'Open Sans', sans-serif;}
+
+main h1 {font-family: 'Raleway', sans-serif; font-weight: bold;}
+main h2 {font-family: 'Raleway', sans-serif; font-weight: bold;}
+main h3 {font-family: 'Raleway', sans-serif; font-weight: bold;}
+main blockquote{font-style: italic; text-align: left;}
+
+.corsivo {font-style: italic;}
+.grassetto {font-weight: bold;}
+.ombratitolo {text-shadow: 0px -17px 3px rgb(230, 225, 225);}
+#servizi{background-color: rgb(240, 240, 240);}
+#testimonials {background-color: rgb(240, 240, 240);}
+#team{background-color: rgb(240, 240, 240);}
+#footer {background-color: rgb(240, 240, 240);}
+.testimonianze{border-radius: 50%;}
+#calltoaction{background-color: rgb(130, 236, 148);}
+#btncalltoaction {background-color: rgb(130, 236, 148); border-radius: 5px; border: white solid 2px}
+#btnEmail {background-color: rgb(130, 236, 148); border-radius: 5px;border: white solid 1px}
+#btnMessaggio {background-color: rgb(130, 236, 148); border-radius: 5px;border: white solid 1px}
+#form {background-color: rgb(240, 240, 240); border-top: rgb(130, 236, 148) solid 2px; border-bottom: rgb(130, 236, 148) solid 2px;}
+#indirizzi {background-color: rgb(240, 240, 240); border-top: rgb(130, 236, 148) solid 2px; border-bottom: rgb(130, 236, 148) solid 2px;}
+.card {border-bottom: rgb(130, 236, 148) solid 2px;}
+#email {width: 40%; height: 40px; border-radius: 4px; border: solid 1px gray;}
+#copyright {font-size: 0.7rem;}
+
+#icontotop { position: fixed; bottom: 10vh; right: 10px;}
+
+
+@keyframes spostamento {
+    from {transform: translateY(0);}
+    to {transform: translateY(40px);}    
+}
+
+#galleggia { animation-name: spostamento; animation-duration: 2s; animation-fill-mode: forwards; animation-iteration-count: infinite; animation-direction: alternate; animation-timing-function: ease-out;}
+
+@keyframes zoom {
+    from {transform: none; }
+    to {transform: scale(1.5); } }
+
+    .boxZoom:hover {
+        animation-name: zoom;
+        animation-duration: 1s; }
+
+
+/* proprietà carosello */

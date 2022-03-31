@@ -1,0 +1,6 @@
+#sfondo {background-image: url("../img/sfondo.png"); background-size: cover;}
+#camponumeri{border: solid 2px rgb(100, 100, 180); border-radius: 7px; height: 80px;}
+#containercampo {width: 300px;}
+
+button {background-color: rgb(165, 165, 231);border-radius: 7px; width:70px; height: 70px;border: solid 1px rgb(100, 100, 180);}
+

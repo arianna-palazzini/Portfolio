@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="esercitazione Bootstrap, pagina contatti">
+  <meta name="viewport" content="width=device-width, initial-scale1">
+  <title>Esercitazione Bootstrap - Contatti</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/stile.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand h2" href="#" style="font-size:1.5rem; color: rgb(48, 48, 48);">EPICODE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link h6" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h6" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h6" href="#servizi">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h6" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link h6" href="#team">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle h6" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false"> Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 2</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Deep Drop Down 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active h6">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+        <section class="container-fluid p-5">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h3 class="ombratitolo">CONTACT</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+                  magna aliqua.</p>
+              </div>
+            </div>
+            <div class="container-fluid p-5">
+              <div class="row">
+                <div class="col-md-6" >
+                  <div class="p-3" id="indirizzi">
+                  <h5>Location:</h5>
+                  <address class="text-secondary">Via Appia 100 - 00100 Roma </address>
+                  <h5>Email:</h5>
+                  <address class="text-secondary">info@example.com </address>
+                  <h5>Telefono:</h5>
+                  <address class="text-secondary">+39 01 23456789 </address>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.771595585043!2d12.51369821459185!3d41.876260373509915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61ef98a6d7df%3A0xd23b86198d5cd29d!2sCirconvallazione%20Appia%2C%20100%2C%2000179%20Roma%20RM!5e0!3m2!1sit!2sit!4v1640610611298!5m2!1sit!2sit" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                </div>
+      
+                <div class="col-md-6 p-3" id="form">
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="nome" class="form-label">Nome</label>
+                      <input type="nome" class="form-control" id="nome">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="cognome" class="form-label">Cognome</label>
+                      <input type="cognome" class="form-control" id="cognome">
+                    </div>
+                    <div class="col-12">
+                      <label for="oggetto" class="form-label">Oggetto</label>
+                      <input type="oggetto" class="form-control" id="oggetto">
+                    </div>
+                    <div class="col-12">
+                      <label for="messaggio" class="form-label">Messaggio</label>
+                      <textarea name="messaggio" class="form-control" id="messaggio" cols="10" rows="7"
+                        placeholder="Scrivi qui il tuo messaggio"> </textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button type="submit" class="btn btn-primary" id="btnMessaggio">Invia Messaggio</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+      
+          <a href="#" aria-hidden="true" data-attribute="back-to-top" class="back-to-top" id="icontotop">
+            <i class="bi bi-arrow-up-circle-fill" style="font-size: 2rem; color: rgb(130, 236, 148);"></i>
+          </a>
+    </main>
+
+
+    <footer class="container-fluid p-5 text-center text-secondary" id="footer">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="m-3">Epicode</h1>
+            <p class="corsivo">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut</p>
+          </div>
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Inserisci la tua email">
+          <button type="submit" id="btnEmail" class="p-2 text-white">Subscribe</button>
+        </div>
+    
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link px-2 text-muted">
+              <i class="bi bi-twitter"></i></a></li>
+          <li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 text-muted">
+              <i class="bi bi-facebook"></i></a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/" target="_blank" class="nav-link px-2 text-muted">
+              <i class="bi bi-instagram"></i></a></li>
+          <li class="nav-item"><a href="https://www.linkedin.com/" target="_blank" class="nav-link px-2 text-muted">
+              <i class="bi bi-linkedin"></i></a></li>
+        </ul>
+    
+        <div class="container" >
+          <div class="row d-flex justify-content-between">
+          <p class="col-md-6" id="copyright">&copy;Copyright Epicode. All rights reserved</p>
+          <p class="col-md-6" id="copyright">Designed By <span class="text-success">BootstrapMade</span></p>
+          </div>
+        </div>
+      </footer>
+    
+    </body>
+    
+</html>  
