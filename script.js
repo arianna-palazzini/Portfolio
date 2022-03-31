@@ -25,6 +25,7 @@ const jq = document.getElementById('jqSkill');
 const ts = document.getElementById('tsSkill');
 const ang = document.getElementById('angSkill');
 const pallina = document.getElementById('pallina');
+const switcher = document.getElementById('toggle');
 var x = false;
 
 
@@ -38,6 +39,7 @@ pallina.addEventListener("click", function(){
     skills.classList.toggle('active');
     lineaEmail.classList.toggle('active');
     pallina.classList.toggle('active');
+    switcher.classList.toggle('active');
 
 
     for(let element of menu){
