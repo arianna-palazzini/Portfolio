@@ -80,7 +80,7 @@ a, h3, h5, small {
 #fixedEmail {
     position: fixed; 
     bottom: 20vh; 
-    right: 15px;
+    right: 15px; 
     writing-mode: vertical-rl;
 }
 
@@ -247,6 +247,9 @@ h3.active, h5.active, small.active{
 /* MEDIA QUERIES */
 
 @media screen and (max-width:500px) {
+    html{
+        overflow-x: hidden;
+    }
     h1 {
         font-size: 4em!important;
     }
@@ -264,5 +267,8 @@ h3.active, h5.active, small.active{
     }
     #logo{
         margin-left: 6em;
+    }
+    #email, #vl{
+        display: none;
     }
 } 
