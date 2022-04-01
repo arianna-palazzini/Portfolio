@@ -6,6 +6,10 @@ html, header, main, footer {
     background-color: #f3e7d6;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -259,6 +263,6 @@ h3.active, h5.active, small.active{
         margin-bottom: 10px;
     }
     #logo{
-        margin-left: 140px;
+        margin-left: 6em;
     }
 } 
