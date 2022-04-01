@@ -255,4 +255,10 @@ h3.active, h5.active, small.active{
     #sunmoon{
         margin-left: 270px;
     }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    #logo{
+        margin-left: 140px;
+    }
 } 
