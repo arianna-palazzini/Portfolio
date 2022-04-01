@@ -242,8 +242,17 @@ h3.active, h5.active, small.active{
 
 /* MEDIA QUERIES */
 
-/* @media screen and (min-width:800px) {
-    header {
-        padding: 1.3em;
+@media screen and (max-width:500px) {
+    h1 {
+        font-size: 4em!important;
     }
-} */
+    h2{
+        font-size: 3em!important;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    #sunmoon{
+        margin-left: 270px;
+    }
+} 
