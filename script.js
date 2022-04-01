@@ -26,6 +26,7 @@ const ts = document.getElementById('tsSkill');
 const ang = document.getElementById('angSkill');
 const pallina = document.getElementById('pallina');
 const switcher = document.getElementById('toggle');
+const hamburger = document.getElementById('navbar-toggler')
 var x = false;
 
 
@@ -40,6 +41,7 @@ switcher.addEventListener("click", function(){
     lineaEmail.classList.toggle('active');
     pallina.classList.toggle('active');
     switcher.classList.toggle('active');
+    hamburger.classList.toggle('navbar-dark');
 
 
     for(let element of menu){

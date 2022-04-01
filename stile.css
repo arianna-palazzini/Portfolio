@@ -186,7 +186,6 @@ h3.active, h5.active, small.active{
 
 
 
-
 /* TOGGLE */
 
 #toggle {
@@ -212,6 +211,11 @@ h3.active, h5.active, small.active{
     border: none;
 }
 
+#pallina.active {
+    left:2em;
+    background-color: #64ffda;
+}
+
 #sundiv{
     position: relative;
     right: 1.9em;
@@ -220,6 +224,7 @@ h3.active, h5.active, small.active{
 #sun{
     margin-right: 17px;
 }
+
 
 
 
@@ -234,7 +239,11 @@ h3.active, h5.active, small.active{
         animation-duration: 0.5s; }
 
 
-#pallina.active {
-    left:2em;
-    background-color: #64ffda;
-}
+
+/* MEDIA QUERIES */
+
+/* @media screen and (min-width:800px) {
+    header {
+        padding: 1.3em;
+    }
+} */
