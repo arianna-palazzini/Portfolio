@@ -26,7 +26,8 @@ const ts = document.getElementById('tsSkill');
 const ang = document.getElementById('angSkill');
 const pallina = document.getElementById('pallina');
 const switcher = document.getElementById('toggle');
-const hamburger = document.getElementById('navbar-toggler')
+const hamburger = document.getElementById('navbar-toggler');
+const acc = document.getElementsByClassName('accordion-body');
 var x = false;
 
 
@@ -77,6 +78,10 @@ switcher.addEventListener("click", function(){
     };
 
     for(let element of accordionBtn){
+        element.classList.toggle('active');
+    };
+
+    for(let element of acc){
         element.classList.toggle('active');
     };
 
